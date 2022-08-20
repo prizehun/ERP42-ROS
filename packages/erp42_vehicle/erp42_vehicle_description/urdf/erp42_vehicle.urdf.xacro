@@ -173,6 +173,15 @@
    <link name="imu_link">
    </link>
 
+    <!-- GPS link -->
+  <joint name="gps_joint" type="fixed">
+    <axis xyz="0 0 1" />
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="gps_link"/>
+  </joint>
+  <link name="gps_link">
+  </link>
 
      <!-- Camera -->
   <joint name="camera_joint" type="fixed">
@@ -271,6 +280,19 @@
     </plugin>
   </gazebo>
 
+  <gazebo>
+    <plugin name="gps_plugin" filename="libhector_gazebo_ros_gps.so">
+      <alwaysOn>true</alwaysOn>
+      <bodyName>gps_link</bodyName>
+      <topicName>fix</topicName>
+      <velocitytopicName>fixvelocity</velocitytopicName>
+      <drift>0.0 0.0 0.0</drift>
+      <gaussianNoise>0.1 0.1 0.1</gaussianNoise>
+      <velocitydrift>0 0 0</velocitydrift>
+      <velocitygaussianNoise>0.1 0.1 0.1</velocitygaussianNoise>
+      <updateRate>10.0</updateRate>
+    </plugin>
+  </gazebo> 
 
 
 
