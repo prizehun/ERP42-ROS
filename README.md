@@ -61,4 +61,6 @@ https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
    
 imu plugin simulation   
 ![imu_sim](https://user-images.githubusercontent.com/67641480/185796498-f8bf5344-e3e9-49c1-a738-43063c7334bb.gif)
-
+   
+gps plugin simulation   
+![gps_sim](https://user-images.githubusercontent.com/67641480/185796720-e5e3575d-8fa1-4f0a-a6a5-0bcf02e9a004.gif)
