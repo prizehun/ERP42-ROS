@@ -56,6 +56,8 @@ The **hdl_graph_slam** package is an open source ROS package for real-time 6DOF 
 
 **3. GPS_plugin**   
    
+![erp42](https://user-images.githubusercontent.com/67641480/185797847-4335c63d-51fe-4686-b862-c56797a5ddc7.png)
+   
 You can use gps plugin by adding below packages.   
 https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
    
