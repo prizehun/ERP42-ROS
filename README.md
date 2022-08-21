@@ -61,8 +61,8 @@ The **hdl_graph_slam** package is an open source ROS package for real-time 6DOF 
 You can use gps plugin by adding below packages.   
 https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
    
-imu plugin simulation   
+**imu plugin simulation**   
 ![imu_sim](https://user-images.githubusercontent.com/67641480/185796498-f8bf5344-e3e9-49c1-a738-43063c7334bb.gif)
    
-gps plugin simulation   
+**gps plugin simulation**   
 ![gps_sim](https://user-images.githubusercontent.com/67641480/185796775-7743a20f-7866-4d61-a7ee-c9e5d32b9ce1.gif)
