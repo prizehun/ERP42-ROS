@@ -54,6 +54,6 @@ These packages are cloned [here](https://github.com/koide3/hdl_graph_slam).
 
 The **hdl_graph_slam** package is an open source ROS package for real-time 6DOF SLAM using a 3D LIDAR.
 
-**3. GPS_plugin**
+**3. GPS_plugin**   
 You can use gps plugin by adding below packages.   
 https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
